@@ -31,7 +31,7 @@ The main purpose is to show the process of the Push-Relabel algorithm.
 
 
 During the process, you can see the transformation of the graph and the color changes on the nodes/vertices. I use RED to indicate that the node/vertex is selected to receive the excess flow; BLUE to indicate that the relabel operation is going on the node/vertex; GREEN to illustrate that it is the current node/vertex where the flow is passing; YELLOW to show all nodes/vertices adjacent to the current node/vertex. The source node will be marked with PINK color, while the sink node will be marked with ORANGE color. I also wrote comments in the python file to explain the meaning of each used color.
-To realize the visualization of the push-relabel process, I add some breakpoints to the pause the process. 
+To realize the visualization of the push-relabel process, I add some breakpoints to pause the process. 
 •	On line 153, the breakpoint serves the step that is selecting the node where the flow is going to; 
 •	on line 157, the breakpoint serves the step that is showing the selected node and its adjacent nodes; 
 •	on line 226, the breakpoint serves the step that is showing the node where the relabel operation performed to increase its height; 
